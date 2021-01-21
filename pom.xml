@@ -11,7 +11,7 @@
 	<groupId>com.renzo</groupId>
 	<artifactId>jugandoConRest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restproject</name>
+	<name>jugandoConRest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -20,6 +20,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<dependency>
