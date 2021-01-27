@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/person")
 public class PersonRESTController {
 
-  private Map<Integer, Person> people = new HashMap<>();
+  private final Map<Integer, Person> people = new HashMap<>();
 
   public PersonRESTController() {
     people.put(0, new Person(0, "Ren", "Perez"));
